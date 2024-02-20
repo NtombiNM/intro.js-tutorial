@@ -15,7 +15,7 @@ export class AppComponent implements OnInit{
   ngOnInit(): void {
    this.startTour2();
   }
-
+// rhfeisurgf
   startTour(){
     this.joyrideService.startTour({
       steps:['first-step', 'second-step'],
